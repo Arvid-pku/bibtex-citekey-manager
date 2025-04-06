@@ -1,7 +1,5 @@
 # BibTeX Cite Key Manager
 
-**One-sentence description:** Python scripts to process BibTeX files for deduplication and update TeX files with consistent citation keys.
-
 This repository contains two Python scripts designed to help manage BibTeX citation keys and ensure consistency in LaTeX documents:
 
 *   `process_bib.py`: Processes a BibTeX file to:
@@ -66,13 +64,3 @@ This repository contains two Python scripts designed to help manage BibTeX citat
 *   **Entry Richness:** The script determines the "best" entry based on the number of fields. You can customize the `get_entry_richness` function in `process_bib.py` for more sophisticated criteria.
 *   **Backup:** Always back up your `merged.bib` and TeX files before running these scripts.
 *   **Citation Command:** `update_tex.py` is designed to work with `\supercite{}` command. If you use other citation commands like `\cite`, `\citet`, `\citep`, you'll need to modify the `update_tex.py` script accordingly.
-
-## Repository Name Suggestion
-
-**Suggested Repository Name:** `bibtex-citekey-manager`
-
-This name is concise, descriptive, and clearly indicates the purpose of the repository.
-
----
-
-Let me know if you have any other questions or need further modifications!
